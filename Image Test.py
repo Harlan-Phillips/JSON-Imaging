@@ -10,12 +10,13 @@ gender_info = {'gender': "female"}
 list_greys = {2.6, 5.2}
 
 #Make Image
-image = Image.new('RGB', (1000, 1000), 'white')
+image = Image.new('RGB', (1500, 1000), 'white')
 draw = ImageDraw.Draw(image)
 
 #Font
+font_path = "./fonts/ARIAL.TTF"
 font_size = 15
-fontW = ImageFont.truetype("arial.ttf", font_size)
+fontW = ImageFont.truetype(font_path, font_size)
 
 #Draw Mouse Icon
 mouse_icon_path = 'mouse_folder/mouse_icon.png'
